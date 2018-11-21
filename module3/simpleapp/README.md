@@ -7,3 +7,5 @@
 - https://github.com/webpack-contrib/css-loader
 - https://github.com/webpack-contrib/sass-loader
 - https://www.npmjs.com/package/html-loader
+- https://www.npmjs.com/package/url-loader
+- https://www.npmjs.com/package/file-loader

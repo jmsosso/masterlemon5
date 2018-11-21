@@ -1,1 +1,4 @@
-console.log('Hello world!');
+import { App } from './App';
+
+let app = new App();
+app.run();
