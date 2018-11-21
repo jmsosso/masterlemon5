@@ -16,29 +16,10 @@ module.exports = {
     appStyles: [
       './style.scss',
     ],
-    /*vendor: [
-      '@babel/polyfill',
-      'jquery'
-    ],
-    vendorStyles: [
-      '../node_modules/bootstrap/dist/css/bootstrap.css',
-    ],*/
   },
   output: {
     filename: '[name].[chunkhash].bundle.js'
   },
-  /*optimization: {
-    splitChunks: {
-      cacheGroups: {
-        vendor: {
-          chunks: 'initial',
-          name: 'vendor',
-          test: 'vendor',
-          enforce: true,
-        }
-      }
-    }
-  },*/
   module: {
     rules: [
       {
@@ -78,7 +59,6 @@ module.exports = {
       {
         test: /\.(png|jpg)$/,
         exclude: /node_modules/,
-        //loader: 'file-loader',
         loader: 'url-loader?limit=2000',
       },
       {
