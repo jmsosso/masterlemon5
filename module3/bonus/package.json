@@ -1,0 +1,21 @@
+{
+  "name": "bonus",
+  "version": "1.0.0",
+  "description": "Simple app bonus exercise module 3 bundling with Parcel.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --open",
+    "build": "rimraf dist && parcel ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan M. Sosso",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "parcel-bundler": "^1.10.3",
+    "rimraf": "^2.6.2",
+    "sass": "^1.15.1",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {}
+}
