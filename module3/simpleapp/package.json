@@ -4,8 +4,8 @@
   "description": "Simple app exercise module 3 bundling with Webpack.",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && webpack --mode development",
-    "start": "webpack-dev-server --mode development",
+    "build": "rimraf dist && webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan M. Sosso",
@@ -29,6 +29,7 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
   }
 }
