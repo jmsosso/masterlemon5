@@ -45,3 +45,10 @@ const company = {
 
 // Merge
 console.log('merge:', merge(person, company));
+
+/* 4. Read Books */
+console.log('Read Books:');
+
+console.log(isBookRead(books, "Devastación"));
+console.log(isBookRead(books, "Canción de hielo y fuego"));
+console.log(isBookRead(books, "Los Pilares de la Tierra"));
