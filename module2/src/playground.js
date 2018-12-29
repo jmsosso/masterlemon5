@@ -52,3 +52,14 @@ console.log('Read Books:');
 console.log(isBookRead(books, "Devastación"));
 console.log(isBookRead(books, "Canción de hielo y fuego"));
 console.log(isBookRead(books, "Los Pilares de la Tierra"));
+
+/* 5. Slot Machine */
+console.log('Slot Machine:');
+
+const machine1 = new SlotMachine();
+
+machine1.play();
+machine1.play();
+machine1.play();
+machine1.play();
+machine1.play();
