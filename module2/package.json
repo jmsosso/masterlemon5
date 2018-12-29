@@ -25,11 +25,14 @@
     "url": "git+https://github.com/Lemoncode/language-sessions.git"
   },
   "scripts": {
-    "start": "lite-server -c bs-config.json"
+    "start": "lite-server -c bs-config.json",
+    "tsc": "tsc"
   },
   "dependencies": {
     "lite-server": "^2.4.0"
   },
   "peerDependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
 }
